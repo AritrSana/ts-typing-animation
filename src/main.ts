@@ -1,14 +1,16 @@
-import "./style.css"
-import Typewriter from "./Typewriter"
+/** @format */
+
+import "./style.css";
+import Typewriter from "./Typewriter";
 
 const typewriter = new Typewriter(
   document.querySelector(".whitespace") as HTMLDivElement,
   {
     loop: true,
-    typingSpeed: 10,
+    typingSpeed: 70,
     deletingSpeed: 10,
   }
-)
+);
 
 typewriter
   .typeString("Where do I start?")
@@ -25,4 +27,4 @@ typewriter
   .typeString("\n\nThere has to be an easier way")
   .pauseFor(1000)
   .deleteAll(10)
-  .start()
+  .start();
