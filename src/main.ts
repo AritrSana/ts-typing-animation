@@ -17,7 +17,7 @@ typewriter
   .pauseFor(1000)
   .typeString("\n\nfunctio")
   .deleteChars(7)
-  .typeString("const temp")
+  .typeString("const main = () => {}")
   .pauseFor(150)
   .deleteAll(10)
   .typeString("Why is this so hard?")
